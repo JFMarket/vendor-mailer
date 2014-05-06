@@ -60,7 +60,7 @@ weeks and so on. Change this if necessary.
 1. Select the day of the week to run the task on. Selecting more than one day will result in the task running multiple times
 a week. This is not recommended. Click "Next".
 1. Select "Start a program". Click "Next".
-1. Click "Browse". Navigate to the directory where you extracted the zip file. Double click "dist". Double click "vendor-mailer_windows_amd64.exe".
+1. Click "Browse". Navigate to the directory where you extracted the zip file. Double click "dist". Double click `vendor-mailer_windows_amd64.exe`.
 1. In the "Add arguments" text field, enter the following: `-email=myemail@gmail.com -password=whatevermypasswordis -vendorEmails=..\vendor-emails.csv -key=mymandrillapikey -fromEmail=theemailisignedupwithonmandrill@mail.com -fromName=Sender Name`
   * Parameters Explanation:
     * -email is the email address used to login to ShopKeep.
